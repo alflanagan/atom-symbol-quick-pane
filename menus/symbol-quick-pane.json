@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle symbol-quick-pane",
+        "command": "symbol-quick-pane:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "symbol-quick-pane",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "symbol-quick-pane:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

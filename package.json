@@ -1,0 +1,21 @@
+{
+  "name": "symbol-quick-pane",
+  "main": "./lib/symbol-quick-pane",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "symbol-quick-pane:toggle"
+  },
+  "repository": "https://github.com/alflanagana/symbol-quick-pane",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "atom-jasmine2-test-runner": "^0.3.0",
+    "esdoc": "^0.5.2",
+    "eslint": "^3.17.1"
+  }
+}
