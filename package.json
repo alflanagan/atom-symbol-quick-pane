@@ -12,7 +12,9 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "etch": "^0.10.0"
+  },
   "devDependencies": {
     "atom-jasmine2-test-runner": "^0.3.0",
     "esdoc": "^0.5.2",
